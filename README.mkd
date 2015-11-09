@@ -1,0 +1,48 @@
+cui_account_register
+====================
+
+アカウント登録を CUI ベースで行います。
+
+
+Usage:
+------
+
+プラグインを導入すると、アカウント登録を CUI ベースで行うことができるようになります。
+
+```sh
+$ bundle exec ruby mikutter.rb
+Twitter アカウントの登録を開始します。
+■ 登録方法
+  1. https://twitter.com/oauth/authorize?oauth_token=XXXXXXXXXXXXXXXXXXXXXXXXXXX にアクセスする
+  2. mikutterに 登録したい Twitter アカウントでログイン
+  3. ログイン後に取得できる PIN コード(7 桁のコード) 下記に入力
+PIN : 0000000
+登録に成功しました！
+```
+
+Install:
+--------
+
+以下のコマンドをターミナルで実行し、 mikutter を再起動してください。
+
+~~~ { .sh }
+$ mkdir -p ~/.mikutter/plugin
+$ cd ~/.mikutter/plugin
+$ git clone git://github.com/mikoto2000/mikutter_cui_account_register.git cui_account_register
+~~~
+
+
+License:
+--------
+
+Copyright (C) 2015 mikoto2000
+
+This software is released under the MIT License, see LICENSE
+
+このソフトウェアは MIT ライセンスの下で公開されています。 LICENSE を参照してください。
+
+
+Author:
+-------
+
+mikoto2000 <mikoto2000@gmail.com>

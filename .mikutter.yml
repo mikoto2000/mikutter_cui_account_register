@@ -1,0 +1,10 @@
+---
+slug: :cui_account_register
+depends:
+  mikutter: '3.1'
+  plugin:
+    - core
+version: '1.0'
+author: mikoto2000
+name: CUI Account Register
+description: アカウント登録を CUI ベースで行います。
